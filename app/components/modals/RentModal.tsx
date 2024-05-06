@@ -55,12 +55,12 @@ const RentModal = () => {
     }
   })
 
-  const category = watch('category')
-  const location = watch('location')
-  const guestCount = watch('guestCount')
-  const roomCount = watch('roomCount')
-  const bathroomCount = watch('bathroomCount')
-  const imageSrc = watch('imageSrc')
+  const category = watch('category');
+  const location = watch('location');
+  const guestCount = watch('guestCount');
+  const roomCount = watch('roomCount');
+  const bathroomCount = watch('bathroomCount');
+  const imageSrc = watch('imageSrc');
 
   const Map = useMemo(
     () =>

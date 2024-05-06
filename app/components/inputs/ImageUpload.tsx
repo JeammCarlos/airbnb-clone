@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CldUploadWidget } from 'next-cloudinary'
 import Image from 'next/image'
@@ -25,7 +25,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({ onChange, value }) => {
   return (
     <CldUploadWidget
       onUpload={handleUpload}
-      uploadPreset="xpkbe4ko"
+      uploadPreset="ud8kwoxx"
       options={{
         maxFiles: 1
       }}

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai'
 
